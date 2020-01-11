@@ -1,0 +1,6 @@
+framework module Pods_WPChained_Example {
+  umbrella header "Pods-WPChained_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
