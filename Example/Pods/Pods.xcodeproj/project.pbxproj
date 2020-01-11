@@ -8,54 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06EA850B9524CF2A86280FFF1C2EF0B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		046F78D7332C1C21E3467DF5B8571162 /* NSMutableAttributedString+WPAddAttributed.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5501781CD6E839882DC7D67252FF78 /* NSMutableAttributedString+WPAddAttributed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0632D29D7908B89755C733DEFB9C92EF /* WPMutableParagraphStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76435DF5AB5437D48E0D474561D3BBA2 /* WPMutableParagraphStyleModel.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
-		14BAB090A2968EB33917C66815715611 /* UILabel+WPChained.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B958C1A1AE1965B3382040CB5687B /* UILabel+WPChained.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		17F778D66A052D4C2D464D536FE312FF /* WPChained-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05061C6519971F767F27C8292542FD67 /* WPChained-dummy.m */; };
+		1FF554024794BF4B5C0E4AFC0C7C8193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		24C160402A6031C2E90D89448A0586B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		25BAB07ACD5D2843C0CDFF7872D6679C /* WPButtonChainedMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A47039BC3B7DA616F4354FEF8F1BB1E2 /* WPButtonChainedMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CD2329BD957B444024D6FF235C31F4A /* WPMutableParagraphStyleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EED5D01805E6095B06AE2612AAE244 /* WPMutableParagraphStyleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		31123BC12F1CF6029D94E5BB9BA37890 /* UIButton+WPChained.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A85C3C8A7A46FCBE7F7D532233CDE4A /* UIButton+WPChained.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32AF8E108F7B50DDE6CD00F230BA9E57 /* Pods-WPChained_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 692E3869A3CD9CFA682D7128EF47DC8A /* Pods-WPChained_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		373EF3999DC2443A610B684F95E49320 /* WPLabelChainedMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F329815C275C1FB41CEF7ABEB34949A /* WPLabelChainedMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C1322AD2B8E98471A76B463742F0763 /* WPChained-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05061C6519971F767F27C8292542FD67 /* WPChained-dummy.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		41B3F6E488C84E7B5F68B3BF0ECF8276 /* NSMutableAttributedString+WPAddAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB334B612A120F575BE93AE10F89E0A /* NSMutableAttributedString+WPAddAttributed.m */; };
-		554AA42690860E05CF94F1DB027D3945 /* UILabel+WPChained.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C132575C1D68CFC5B134317A2F84E47 /* UILabel+WPChained.m */; };
-		5A1DB9EB1DE70190B69B7AF020099AF0 /* UINavigationItem+WPAddBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F682857FA0596C69CE11AA6ECBD5CD /* UINavigationItem+WPAddBarButtonItem.m */; };
+		522E7D942D89A00B406FE5DA6620AC56 /* UINavigationItem+WPAddBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E7720803788CAF99B71B9CF04AA9F5 /* UINavigationItem+WPAddBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		581E5885565951A20C85226869E40C4C /* UIButton+WPChained.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A85C3C8A7A46FCBE7F7D532233CDE4A /* UIButton+WPChained.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3EBAA827979838FE18FB038C0450AB /* WPMutableAttributedStringMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEE450CAA1E12DB3601873F223F06A4 /* WPMutableAttributedStringMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC7D1944C785B5FF3DEDB3785682BD6 /* WPLabelChainedMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E756D649319E52657BE02A9DCB3911C /* WPLabelChainedMaker.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		76E193F93A5E05A25945A027068DFD90 /* WPMutableParagraphStyleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EED5D01805E6095B06AE2612AAE244 /* WPMutableParagraphStyleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DF6424BB92F0DBD9CE87B1E7E93BF24 /* WPChainedHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F36B5C8016E1849AB40FDF9F03F542 /* WPChainedHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8262A21EC147F5B22B9572422B78F1FF /* WPChained-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CBFFEEEC1D886D1C6412A1C5D8EBC2 /* WPChained-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87166F42523DCD4518F89048D48FB3EF /* UIButton+WPChained.m in Sources */ = {isa = PBXBuildFile; fileRef = 108546BE2EE9E1B048996F17438B52C3 /* UIButton+WPChained.m */; };
+		6FE977A4892E1497E731527BADD3CD68 /* WPMutableAttributedStringMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60AB3615979D7C22E69F72819050BA /* WPMutableAttributedStringMaker.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0E650F98A521B9394626483C9BC932 /* UILabel+WPChained.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B958C1A1AE1965B3382040CB5687B /* UILabel+WPChained.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		A3CE993CCA6146B2F347AC7E40C5CFA8 /* WPButtonChainedMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 03227CC29BF8523526BCB868FEC6AC41 /* WPButtonChainedMaker.m */; };
+		A3DDD8922A051CBE29F81690F05740E8 /* UINavigationItem+WPAddBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F682857FA0596C69CE11AA6ECBD5CD /* UINavigationItem+WPAddBarButtonItem.m */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		AF3C1C7B190C66F625CAC7592FDE8302 /* WPMutableParagraphStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76435DF5AB5437D48E0D474561D3BBA2 /* WPMutableParagraphStyleModel.m */; };
+		A54BBEAC8F8BB7162CBD3C06AE85AA4A /* WPNavigationChainedMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE2E6BE1B1FD877EF0E60DE24BA12C0 /* WPNavigationChainedMaker.m */; };
+		AA3A558ED496BA02B089B8B2596597BE /* WPLabelChainedMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F329815C275C1FB41CEF7ABEB34949A /* WPLabelChainedMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B9C62EE165706A065B43D45FA9D738B9 /* WPNavigationChainedMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A413B4EC56F11F70BC9E77790BF2E6F /* WPNavigationChainedMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE6E70030EF38415A508D4A10C50A053 /* WPLabelChainedMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E756D649319E52657BE02A9DCB3911C /* WPLabelChainedMaker.m */; };
-		C0C9B3726D6E6C29F8972F9C9A5BF780 /* WPMutableAttributedStringMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEE450CAA1E12DB3601873F223F06A4 /* WPMutableAttributedStringMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB558702B315EC39D7209D26E6AFA7B /* WPNavigationChainedMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A413B4EC56F11F70BC9E77790BF2E6F /* WPNavigationChainedMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C576A9F720053A868ECAD49148AC5394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		C62727C3EE1F006B4D73330B6CBD0D21 /* WPMutableAttributedStringMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60AB3615979D7C22E69F72819050BA /* WPMutableAttributedStringMaker.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D43D201CA1C58A3353054ED348861E15 /* WPNavigationChainedMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE2E6BE1B1FD877EF0E60DE24BA12C0 /* WPNavigationChainedMaker.m */; };
-		DC759282551F3F123B9021062A82B2BE /* NSMutableAttributedString+WPAddAttributed.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5501781CD6E839882DC7D67252FF78 /* NSMutableAttributedString+WPAddAttributed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C35F406B53BF3B7B1903BA72DCEFA7 /* UIButton+WPChained.m in Sources */ = {isa = PBXBuildFile; fileRef = 108546BE2EE9E1B048996F17438B52C3 /* UIButton+WPChained.m */; };
+		D45A8A3A009B46EF9E692A113C134119 /* UILabel+WPChained.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C132575C1D68CFC5B134317A2F84E47 /* UILabel+WPChained.m */; };
 		DE3DE27EF186590F4AE0FC115F7F1D1B /* Pods-WPChained_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F41E8C84429B1AAA644D7E68AB8AB /* Pods-WPChained_Example-dummy.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E19AC916D2D162C2D85CB38147E27154 /* UINavigationItem+WPAddBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E7720803788CAF99B71B9CF04AA9F5 /* UINavigationItem+WPAddBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		E98190A6A56381B34DAA28E94E2CC454 /* WPChainedHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F36B5C8016E1849AB40FDF9F03F542 /* WPChainedHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA23FAB270354018D6C5F7F40420572D /* WPButtonChainedMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A47039BC3B7DA616F4354FEF8F1BB1E2 /* WPButtonChainedMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F1B7A0843DFF42D0CA8B03F8227292E2 /* WPChained-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CBFFEEEC1D886D1C6412A1C5D8EBC2 /* WPChained-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3C4727179FF6CF9A9D600FDB0A68C9E /* Pods-WPChained_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E82CBCD683B83817EAA8E3F1CEB4A5 /* Pods-WPChained_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4308EE9121195B4E9E40F720FEC6791 /* Pods-WPChained_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC51A43389A5865128377C849D5C3159 /* Pods-WPChained_Tests-dummy.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9BCE870090848659586CB2737BD368F /* WPButtonChainedMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 03227CC29BF8523526BCB868FEC6AC41 /* WPButtonChainedMaker.m */; };
+		FA6773D25A884FEE759A4719FD829833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		FB4E7AB53EB057B1CF394A994C7B0689 /* NSMutableAttributedString+WPAddAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB334B612A120F575BE93AE10F89E0A /* NSMutableAttributedString+WPAddAttributed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,13 +87,13 @@
 		03227CC29BF8523526BCB868FEC6AC41 /* WPButtonChainedMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPButtonChainedMaker.m; sourceTree = "<group>"; };
 		05061C6519971F767F27C8292542FD67 /* WPChained-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPChained-dummy.m"; sourceTree = "<group>"; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		0BF82B38846030EBE91BBFB26062E99E /* WPChained.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPChained.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF82B38846030EBE91BBFB26062E99E /* WPChained.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPChained.framework; path = WPChained.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		108546BE2EE9E1B048996F17438B52C3 /* UIButton+WPChained.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WPChained.m"; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		17BF8B09A12C6D501647C70DBCF49653 /* Pods-WPChained_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPChained_Example-frameworks.sh"; sourceTree = "<group>"; };
 		185233A1867C40BE7A583A4AE25B359D /* Pods-WPChained_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPChained_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		1ED51F691479B7B02E8C7AEA5D88A40D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1ED51F691479B7B02E8C7AEA5D88A40D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1F329815C275C1FB41CEF7ABEB34949A /* WPLabelChainedMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPLabelChainedMaker.h; sourceTree = "<group>"; };
 		25F682857FA0596C69CE11AA6ECBD5CD /* UINavigationItem+WPAddBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+WPAddBarButtonItem.m"; sourceTree = "<group>"; };
 		28EED5D01805E6095B06AE2612AAE244 /* WPMutableParagraphStyleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMutableParagraphStyleModel.h; sourceTree = "<group>"; };
@@ -110,7 +111,7 @@
 		596C985EF709F0F324874C9D892FE569 /* Pods-WPChained_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPChained_Example.modulemap"; sourceTree = "<group>"; };
 		5B5501781CD6E839882DC7D67252FF78 /* NSMutableAttributedString+WPAddAttributed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+WPAddAttributed.h"; sourceTree = "<group>"; };
 		5C3AB3D259E5E5F0F62AF5A6199C976B /* Pods-WPChained_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPChained_Tests-Info.plist"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		692E3869A3CD9CFA682D7128EF47DC8A /* Pods-WPChained_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPChained_Tests-umbrella.h"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -123,7 +124,7 @@
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E756D649319E52657BE02A9DCB3911C /* WPLabelChainedMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPLabelChainedMaker.m; sourceTree = "<group>"; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		82E526B4EABBA5C8A725B60BE4555FC5 /* Pods_WPChained_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPChained_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E526B4EABBA5C8A725B60BE4555FC5 /* Pods_WPChained_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPChained_Tests.framework; path = "Pods-WPChained_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		8BE2E6BE1B1FD877EF0E60DE24BA12C0 /* WPNavigationChainedMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPNavigationChainedMaker.m; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -132,13 +133,13 @@
 		96E7720803788CAF99B71B9CF04AA9F5 /* UINavigationItem+WPAddBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+WPAddBarButtonItem.h"; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		9A85C3C8A7A46FCBE7F7D532233CDE4A /* UIButton+WPChained.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+WPChained.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		A47039BC3B7DA616F4354FEF8F1BB1E2 /* WPButtonChainedMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPButtonChainedMaker.h; sourceTree = "<group>"; };
 		A74B958C1A1AE1965B3382040CB5687B /* UILabel+WPChained.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+WPChained.h"; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		BA3666B6382BB1347F338CDA39C1D7A0 /* Pods_WPChained_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPChained_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3666B6382BB1347F338CDA39C1D7A0 /* Pods_WPChained_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPChained_Example.framework; path = "Pods-WPChained_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA636467CD550E07621EC7EFAC501E98 /* Pods-WPChained_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPChained_Tests.modulemap"; sourceTree = "<group>"; };
 		CC51A43389A5865128377C849D5C3159 /* Pods-WPChained_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPChained_Tests-dummy.m"; sourceTree = "<group>"; };
 		CE448CBE6418B6531B0562DF733753FC /* Pods-WPChained_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPChained_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,31 +151,32 @@
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		E474076CC065FB70C935F191BE6A6548 /* Pods-WPChained_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPChained_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E4E02FC1B61211CE65763F838337B8D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E4E02FC1B61211CE65763F838337B8D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		EDB0A38907007616A78C5A68E28D535B /* WPChained-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPChained-Info.plist"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		F42E992A09FB0F9AFE08A450909EC294 /* Pods-WPChained_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPChained_Example-Info.plist"; sourceTree = "<group>"; };
 		F5CBFFEEEC1D886D1C6412A1C5D8EBC2 /* WPChained-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPChained-umbrella.h"; sourceTree = "<group>"; };
-		FB666BFBC26EA67FEAABF493C92D1398 /* WPChained.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WPChained.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		FB666BFBC26EA67FEAABF493C92D1398 /* WPChained.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPChained.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF0DA469E3C28D25CCCAF9E3AC299467 /* Pods-WPChained_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPChained_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		264EF235ED269269285EE3BD0C40E5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6773D25A884FEE759A4719FD829833 /* Foundation.framework in Frameworks */,
+				1FF554024794BF4B5C0E4AFC0C7C8193 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C2EB8A001D50AE50FDD80B54B20B799 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24C160402A6031C2E90D89448A0586B6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCE4ABEEF4F3816FE36521759FFBA193 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06EA850B9524CF2A86280FFF1C2EF0B6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +337,7 @@
 				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
 				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -469,21 +472,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DAFD16308A8E8EC426FD66BBA4FA4DB /* Headers */ = {
+		D3FDBA840D0129C871347A28083FBD27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC759282551F3F123B9021062A82B2BE /* NSMutableAttributedString+WPAddAttributed.h in Headers */,
-				31123BC12F1CF6029D94E5BB9BA37890 /* UIButton+WPChained.h in Headers */,
-				14BAB090A2968EB33917C66815715611 /* UILabel+WPChained.h in Headers */,
-				E19AC916D2D162C2D85CB38147E27154 /* UINavigationItem+WPAddBarButtonItem.h in Headers */,
-				25BAB07ACD5D2843C0CDFF7872D6679C /* WPButtonChainedMaker.h in Headers */,
-				8262A21EC147F5B22B9572422B78F1FF /* WPChained-umbrella.h in Headers */,
-				7DF6424BB92F0DBD9CE87B1E7E93BF24 /* WPChainedHeader.h in Headers */,
-				373EF3999DC2443A610B684F95E49320 /* WPLabelChainedMaker.h in Headers */,
-				C0C9B3726D6E6C29F8972F9C9A5BF780 /* WPMutableAttributedStringMaker.h in Headers */,
-				76E193F93A5E05A25945A027068DFD90 /* WPMutableParagraphStyleModel.h in Headers */,
-				B9C62EE165706A065B43D45FA9D738B9 /* WPNavigationChainedMaker.h in Headers */,
+				046F78D7332C1C21E3467DF5B8571162 /* NSMutableAttributedString+WPAddAttributed.h in Headers */,
+				581E5885565951A20C85226869E40C4C /* UIButton+WPChained.h in Headers */,
+				9D0E650F98A521B9394626483C9BC932 /* UILabel+WPChained.h in Headers */,
+				522E7D942D89A00B406FE5DA6620AC56 /* UINavigationItem+WPAddBarButtonItem.h in Headers */,
+				EA23FAB270354018D6C5F7F40420572D /* WPButtonChainedMaker.h in Headers */,
+				F1B7A0843DFF42D0CA8B03F8227292E2 /* WPChained-umbrella.h in Headers */,
+				E98190A6A56381B34DAA28E94E2CC454 /* WPChainedHeader.h in Headers */,
+				AA3A558ED496BA02B089B8B2596597BE /* WPLabelChainedMaker.h in Headers */,
+				5A3EBAA827979838FE18FB038C0450AB /* WPMutableAttributedStringMaker.h in Headers */,
+				2CD2329BD957B444024D6FF235C31F4A /* WPMutableParagraphStyleModel.h in Headers */,
+				BEB558702B315EC39D7209D26E6AFA7B /* WPNavigationChainedMaker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,12 +542,12 @@
 		};
 		65A6E0A42E8AADD1B102078650B5E427 /* WPChained */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58EFD9AE250B0FBF46F71F9692CB101F /* Build configuration list for PBXNativeTarget "WPChained" */;
+			buildConfigurationList = 0969E6F9606C765D394BE0451F49C2F2 /* Build configuration list for PBXNativeTarget "WPChained" */;
 			buildPhases = (
-				9DAFD16308A8E8EC426FD66BBA4FA4DB /* Headers */,
-				FDD3BA5DFC14F89066C9391E74702B99 /* Sources */,
-				CCE4ABEEF4F3816FE36521759FFBA193 /* Frameworks */,
-				80FA5D680D6074FC64DC44210CCE6ECB /* Resources */,
+				D3FDBA840D0129C871347A28083FBD27 /* Headers */,
+				94EF1C040E84C8D2FB5B631958E14736 /* Sources */,
+				264EF235ED269269285EE3BD0C40E5EA /* Frameworks */,
+				38A6E0AE45AAD806888F02B0447707E4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -610,14 +613,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+		38A6E0AE45AAD806888F02B0447707E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80FA5D680D6074FC64DC44210CCE6ECB /* Resources */ = {
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -634,6 +637,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		94EF1C040E84C8D2FB5B631958E14736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4E7AB53EB057B1CF394A994C7B0689 /* NSMutableAttributedString+WPAddAttributed.m in Sources */,
+				D2C35F406B53BF3B7B1903BA72DCEFA7 /* UIButton+WPChained.m in Sources */,
+				D45A8A3A009B46EF9E692A113C134119 /* UILabel+WPChained.m in Sources */,
+				A3DDD8922A051CBE29F81690F05740E8 /* UINavigationItem+WPAddBarButtonItem.m in Sources */,
+				F9BCE870090848659586CB2737BD368F /* WPButtonChainedMaker.m in Sources */,
+				3C1322AD2B8E98471A76B463742F0763 /* WPChained-dummy.m in Sources */,
+				5CC7D1944C785B5FF3DEDB3785682BD6 /* WPLabelChainedMaker.m in Sources */,
+				6FE977A4892E1497E731527BADD3CD68 /* WPMutableAttributedStringMaker.m in Sources */,
+				0632D29D7908B89755C733DEFB9C92EF /* WPMutableParagraphStyleModel.m in Sources */,
+				A54BBEAC8F8BB7162CBD3C06AE85AA4A /* WPNavigationChainedMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		991989F9FCC9E5D449873EF8CDAC0A02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -663,23 +683,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4308EE9121195B4E9E40F720FEC6791 /* Pods-WPChained_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDD3BA5DFC14F89066C9391E74702B99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41B3F6E488C84E7B5F68B3BF0ECF8276 /* NSMutableAttributedString+WPAddAttributed.m in Sources */,
-				87166F42523DCD4518F89048D48FB3EF /* UIButton+WPChained.m in Sources */,
-				554AA42690860E05CF94F1DB027D3945 /* UILabel+WPChained.m in Sources */,
-				5A1DB9EB1DE70190B69B7AF020099AF0 /* UINavigationItem+WPAddBarButtonItem.m in Sources */,
-				A3CE993CCA6146B2F347AC7E40C5CFA8 /* WPButtonChainedMaker.m in Sources */,
-				17F778D66A052D4C2D464D536FE312FF /* WPChained-dummy.m in Sources */,
-				BE6E70030EF38415A508D4A10C50A053 /* WPLabelChainedMaker.m in Sources */,
-				C62727C3EE1F006B4D73330B6CBD0D21 /* WPMutableAttributedStringMaker.m in Sources */,
-				AF3C1C7B190C66F625CAC7592FDE8302 /* WPMutableParagraphStyleModel.m in Sources */,
-				D43D201CA1C58A3353054ED348861E15 /* WPNavigationChainedMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,7 +830,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -929,38 +933,6 @@
 			};
 			name = Debug;
 		};
-		960B2CFD323E7E17CA82B3734258EA31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4478F34D2DF47DB56779039CFF924152 /* WPChained.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WPChained/WPChained-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WPChained/WPChained-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WPChained/WPChained.modulemap";
-				PRODUCT_MODULE_NAME = WPChained;
-				PRODUCT_NAME = WPChained;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BD9397959CBF1C1D6169A16842A1984F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE448CBE6418B6531B0562DF733753FC /* Pods-WPChained_Tests.release.xcconfig */;
@@ -995,7 +967,39 @@
 			};
 			name = Release;
 		};
-		C81B8ADFB1AF4D95468EB27C4E339525 /* Debug */ = {
+		D10561178055F02776E44469214AD2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4478F34D2DF47DB56779039CFF924152 /* WPChained.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPChained/WPChained-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPChained/WPChained-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPChained/WPChained.modulemap";
+				PRODUCT_MODULE_NAME = WPChained;
+				PRODUCT_NAME = WPChained;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E513D0C733CF2CC38B7B7665070AD904 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4478F34D2DF47DB56779039CFF924152 /* WPChained.xcconfig */;
 			buildSettings = {
@@ -1093,6 +1097,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0969E6F9606C765D394BE0451F49C2F2 /* Build configuration list for PBXNativeTarget "WPChained" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E513D0C733CF2CC38B7B7665070AD904 /* Debug */,
+				D10561178055F02776E44469214AD2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		228BEFCE4714C6836D635CA337B1E210 /* Build configuration list for PBXNativeTarget "Pods-WPChained_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1107,15 +1120,6 @@
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58EFD9AE250B0FBF46F71F9692CB101F /* Build configuration list for PBXNativeTarget "WPChained" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C81B8ADFB1AF4D95468EB27C4E339525 /* Debug */,
-				960B2CFD323E7E17CA82B3734258EA31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

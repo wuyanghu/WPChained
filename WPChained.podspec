@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'WPChained/Classes/**/*'
   
+  s.frameworks = 'UIKit'
   # s.resource_bundles = {
   #   'WPChained' => ['WPChained/Assets/*.png']
   # }

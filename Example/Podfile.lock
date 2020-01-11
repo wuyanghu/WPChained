@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - WPChained (0.1.0)
+  - WPChained (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WPChained: c9104fb83719e433977a246a7784258c444adb9f
+  WPChained: 8d4c734e212d081d2e03c8c64215104e3fecaec6
 
 PODFILE CHECKSUM: 9b129676c0c9b4d6f0c1c4ecbdcbc75dee6d1b6e
 

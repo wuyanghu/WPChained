@@ -1,6 +1,6 @@
 {
   "name": "WPChained",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "常用属性的链式封装:如UILabel、UIButton、UIBarButtonItem、MutableAttributedString等",
   "description": "常用属性的链式封装:如UILabel、UIButton、UIBarButtonItem、MutableAttributedString等",
   "homepage": "https://github.com/wuyanghu/WPChained",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/wuyanghu/WPChained",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WPChained/Classes/**/*"
+  "source_files": "WPChained/Classes/**/*",
+  "frameworks": "UIKit"
 }
