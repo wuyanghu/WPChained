@@ -14,7 +14,7 @@ typedef WPLabelChainedMaker *(^ChainedLabelFrameBlock) (CGRect frame);
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WPLabelChainedMaker : NSObject
-- (instancetype)initWithView:(UIView *)view;
+- (instancetype)initWithLabel:(UIView *)view;
 
 - (ChainedLabelFrameBlock)frame;
 - (ChainedLabelBlock)bgColor;

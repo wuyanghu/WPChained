@@ -14,7 +14,7 @@
 
 @implementation WPLabelChainedMaker
 
-- (instancetype)initWithView:(UILabel *)label{
+- (instancetype)initWithLabel:(UILabel *)label{
     self = [super init];
     if (self) {
         _label = label;

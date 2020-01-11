@@ -15,7 +15,7 @@
 }
 
 - (UILabel *)wp_makeProperty:(ChainedLabelMakerBlock)block{
-    WPLabelChainedMaker * maker = [[WPLabelChainedMaker alloc] initWithView:self];
+    WPLabelChainedMaker * maker = [[WPLabelChainedMaker alloc] initWithLabel:self];
     block(maker);
     return self;
 }
