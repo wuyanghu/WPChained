@@ -7,8 +7,7 @@
 //
 
 #import "WPMutableAttrbutedStringViewController.h"
-#import "NSMutableAttributedString+WPAddAttributed.h"
-#import "UILabel+WPChained.h"
+#import "WPChainedHeader.h"
 #import "WPHeader.h"
 
 @interface WPMutableAttrbutedStringViewController ()

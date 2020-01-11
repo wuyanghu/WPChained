@@ -7,7 +7,8 @@
 //
 
 #import "WPNavigationChainedMaker.h"
-#import "WPChainedMacro.h"
+
+#define RGB_COLOR(R, G, B) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1.0]
 
 @interface WPNavigationChainedMaker()
 @property (nonatomic,weak) UINavigationItem * naviItem;

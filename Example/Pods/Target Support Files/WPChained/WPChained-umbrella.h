@@ -10,16 +10,16 @@
 #endif
 #endif
 
-#import "NavigationChainedMaker.h"
 #import "UINavigationItem+WPAddBarButtonItem.h"
-#import "ButtonChainedMaker.h"
+#import "WPNavigationChainedMaker.h"
 #import "UIButton+WPChained.h"
-#import "LabelChainedMaker.h"
+#import "WPButtonChainedMaker.h"
 #import "UILabel+WPChained.h"
-#import "MutableAttributedStringMaker.h"
+#import "WPLabelChainedMaker.h"
 #import "NSMutableAttributedString+WPAddAttributed.h"
+#import "WPMutableAttributedStringMaker.h"
 #import "WPMutableParagraphStyleModel.h"
-#import "WPChainedMacro.h"
+#import "WPChainedHeader.h"
 
 FOUNDATION_EXPORT double WPChainedVersionNumber;
 FOUNDATION_EXPORT const unsigned char WPChainedVersionString[];

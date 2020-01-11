@@ -7,12 +7,9 @@
 //
 
 #import "WPViewController.h"
-#import "UILabel+WPChained.h"
-#import "UIButton+WPChained.h"
-#import "UINavigationItem+WPAddBarButtonItem.h"
-#import "NSMutableAttributedString+WPAddAttributed.h"
 #import "WPMutableAttrbutedStringViewController.h"
 #import "WPHeader.h"
+#import "WPChainedHeader.h"
 
 @interface WPViewController ()
 

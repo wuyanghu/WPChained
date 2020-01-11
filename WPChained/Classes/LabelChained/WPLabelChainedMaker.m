@@ -14,10 +14,10 @@
 
 @implementation WPLabelChainedMaker
 
-- (instancetype)initWithView:(UIView *)view{
+- (instancetype)initWithView:(UILabel *)label{
     self = [super init];
     if (self) {
-        _label = view;
+        _label = label;
     }
     return self;
 }
