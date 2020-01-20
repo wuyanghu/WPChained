@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WPChained'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '常用属性的链式封装:如UILabel、UIButton、UIBarButtonItem、MutableAttributedString等'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  常用属性的链式封装:如UILabel、UIButton、UIBarButtonItem、MutableAttributedString等
+  常用属性的链式封装:如UILabel、UIButton、UIBarButtonItem、MutableAttributedString等.
                        DESC
 
   s.homepage         = 'https://github.com/wuyanghu/WPChained'

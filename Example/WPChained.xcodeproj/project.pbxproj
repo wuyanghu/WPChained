@@ -70,7 +70,7 @@
 		A6D70542DC644961CC64AD3D /* Pods_WPChained_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPChained_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C18767C1D52FF5A38B34C1 /* Pods-WPChained_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPChained_Example.release.xcconfig"; path = "Target Support Files/Pods-WPChained_Example/Pods-WPChained_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B95052FE9BC138AE88E68569 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C7DFA66151DAEF7AA1B046D2 /* WPChained.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WPChained.podspec; path = ../WPChained.podspec; sourceTree = "<group>"; };
+		C7DFA66151DAEF7AA1B046D2 /* WPChained.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WPChained.podspec; path = ../WPChained.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
