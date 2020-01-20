@@ -29,7 +29,7 @@
     NSString * text = attriStr.string;
     //可以分开设置
     [attriStr wp_makeAttributed:^(WPMutableAttributedStringMaker * _Nullable make) {
-        make.linkWithUrl(@"https://www.baidu.com",[text rangeOfString:@"https://www.baidu.com"]);
+        make.link(@"https://www.baidu.com",[text rangeOfString:@"https://www.baidu.com"]);
     }];
     
     CGSize size = [attriStr boundingRectWithSize:CGSizeMake(ScreenWidth-16*2, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin context:nil].size;

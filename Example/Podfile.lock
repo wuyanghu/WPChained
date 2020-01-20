@@ -4,14 +4,14 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - WPChained (0.1.1)
+  - WPChained (0.1.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - WPChained (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WPChained: 8d4c734e212d081d2e03c8c64215104e3fecaec6
+  WPChained: 354502cdfaf040ae05dd41b115c9169da90967cf
 
 PODFILE CHECKSUM: 9b129676c0c9b4d6f0c1c4ecbdcbc75dee6d1b6e
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.4
